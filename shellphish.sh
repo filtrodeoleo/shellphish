@@ -401,9 +401,12 @@ start() {
 }	
 
 start1() {
+	
 	if [[ -e sendlink ]]; then
 		rm -rf sendlink
 	fi
+
+	start
 }
 
 checkfound() {
